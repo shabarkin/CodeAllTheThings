@@ -4,7 +4,6 @@
 
 - [Access Controls & Authorization](#access-controls-authorization)
     - [CodeIgniter](#code-igniter)
-    -   [test](#test)
 
 ### Access Controls & Authorization
 
@@ -26,7 +25,3 @@ grep -HanriE "public function [a-z0-9_]+\\("
 ```bash
 gf -save php-authorization -HanriE "public function [a-z0-9_]+\\("
 ```
-
-##### test
-
-sdfvsdfv
