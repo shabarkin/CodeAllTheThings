@@ -2,8 +2,8 @@
 
 ## Summary
 
-- [Access Controls & Authorization] (#access-controls-authorization)
-    - [CodeIgniter] (#code-igniter)
+- [Access Controls & Authorization](#access-controls-authorization)
+    - [CodeIgniter](#code-igniter)
 
 ### Access Controls & Authorization
 
