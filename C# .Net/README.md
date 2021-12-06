@@ -7,7 +7,7 @@
 ## Access Controls & Authorization
 
 > You can also use the `AllowAnonymous` attribute to allow access by non-authenticated users to individual actions.
-> [https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0)
+[https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0)
 > 
 
 Walk through all the files within the `Controllers` folder and identify all `[AllowAnonymous]` attributes on the endpoint (function) or even controller (class) level. The controller on the Class level can have `[Authorize]` attribute, what means all the endpoints will require authorization, however the `[AllowAnonymous]` attribute on the function/endpoint level will rewrite this permission. 
