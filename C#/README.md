@@ -1,6 +1,8 @@
 # .NET
 
 # Summary
+- [Access Controls & Authorization](#access-controls-authorization)
+- [SQL Injection](#sql-injection)
 
 ## Access Controls & Authorization
 
