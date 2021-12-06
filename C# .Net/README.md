@@ -27,31 +27,31 @@ Identify the pattern and the way the application creates and keeps the connectio
 
 **Identify SQL namespace:**
 
-```sql
+```bash
 grep -HanriE "using System.Data.SqlClient"
 ```
 
-```sql
+```bash
 gf -save cs-sql-namespace -HanriE "using System.Data.SqlClient"
 ```
 
 **Search all entries of the following .NET SQL classes:** `SqlCommand`, `OracleCommand`, `OdbcCommand`, `OleCommand`
 
-```sql
+```bash
 grep -HanriE "SqlCommand\(|OracleCommand\(|OdbcCommand\(|OleCommand\("
 ```
 
-```sql
+```bash
 gf -save cs-sql-class -HanriE "SqlCommand\(|OracleCommand\(|OdbcCommand\(|OleCommand\("
 ```
 
 **Search all entries of the abstract class** `SqlHelper`:
 
-```sql
+```bash
 grep -HanriE "SqlHelper\."
 ```
 
-```sql
+```bash
 gf -save cs-sql-class-helper -HanriE "SqlHelper\."
 ```
 
@@ -65,20 +65,20 @@ The common ways to execute SQL query use the `SqlConnection` and `SqlCommand` cl
 
 **Search all entries of the following Sql execution methods:** 
 
-```sql
+```bash
 grep -HanriE "EntityCommand\(|ExecuteNonQuery\(|ExecuteQuery\(|ExecuteDataset\(|ExecuteScalar\("
 ```
 
-```sql
+```bash
 gf -save cs-sql-exec -HanriE "EntityCommand\(|ExecuteNonQuery\(|ExecuteQuery\(|ExecuteDataset\(|ExecuteScalar\("
 ```
 
 **Search for the** `CommandType.Text` **directive to identify the places where the SQL query will be processed as the raw string:**
 
-```sql
+```bash
 grep -HanriE "CommandType\.Text"
 ```
 
-```sql
+```bash
 gf -save cs-sql-text -HanriE "CommandType\.Text"
 ```
