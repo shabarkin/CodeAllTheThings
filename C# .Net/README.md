@@ -7,7 +7,6 @@
 ## Access Controls & Authorization
 
 > You can also use the `AllowAnonymous` attribute to allow access by non-authenticated users to individual actions.
-> 
 > [https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple?view=aspnetcore-6.0)
 > 
 
