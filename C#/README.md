@@ -21,7 +21,7 @@ grep -HanriEA2 "\[AllowAnonymous\]"
 gf -save cs-unauthenticated -HanriEA2 "\[AllowAnonymous\]"
 ```
 
-## SQL Injections
+## SQL Injection
 
 Identify the pattern and the way the application creates and keeps the connection with the database by reviewing at least one case. Presence of "`using System.Data.SqlClient`" namespace will tell you what type of SQL class an application uses.
 
