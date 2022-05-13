@@ -13,7 +13,7 @@
 # Security Checklist
 
 - [ ]  `loadURL` loads only `https://` links
-- [ ]  `nodeIntegration` is enabled (`false`)
+- [ ]  `nodeIntegration` is disabled (`false`)
 - [ ]  `contextIsolation` is enabled (`true`)
 - [ ]  `sandbox` is enabled (`true`)
 - [ ]  Permission request handlers are implemented (`.setPermissionRequestHandler`)
