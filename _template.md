@@ -19,7 +19,7 @@
 - [ ]  A list of checklist a source code reviewer do at the review
 - [ ]  `some rules are not defined ...` 
 - [ ]  `xss has no sanitization while using this function ...`
-- [ ]  `...`
+- [ ]  `the app do not use those functions within code base ...`
 
 
 # Review Methodology
@@ -32,14 +32,25 @@ If needed
 If needed 
 
 # Framework vulnerability 1
-Define the attack sink, surface, and way to identify the issue through the source code
+Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
 
 # Framework vulnerability 2
-Define the attack sink, surface, and way to identify the issue through the source code
+Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
 
 # Framework vulnerability 3
-Define the attack sink, surface, and way to identify the issue through the source code
+Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
 
+## subcategory 1 vulnerability 3
+
+if there is different attack types put them into sub headlines
+
+## subcategory 2 vulnerability 3
+
+if there is different attack types put them into sub headlines
+
+## subcategory 3 vulnerability 3
+
+if there is different attack types put them into sub headlines
 
 
 
