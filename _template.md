@@ -16,10 +16,10 @@
 
 # Security Checklist
 
-- [ ]  A list of checklist a source code reviewer do at the review
+- [ ]  Create a check list based on the `review methodology` section
 - [ ]  `some rules are not defined ...` 
-- [ ]  `xss has no sanitization while using this function ...`
-- [ ]  `the app does not use those functions within code base ...`
+- [ ]  `app has no internal sanitization while using this function check smth ...`
+- [ ]  `review this function for rce ...`
 
 
 # Review Methodology
