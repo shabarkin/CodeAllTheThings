@@ -1,11 +1,11 @@
-**Disclaimer: If it is not ready:**
+**Disclaimer: <If it is not ready>: It is still under research, this guide can be extended.**
 
 # Security Review for <Framework> applications
 - [Security Checklist](#security-checklist)
 - [Review Methodology](#review-methodology)
 	- [Getting Started](#getting-started)
 		- [Setup](#setup)
-        - [Subcategory](#subcategory-1)
+        - [Subcategory](#subcategory)
 - [Framework-vulnerability-1](#framework-vulnerability-1)
 - [Framework-vulnerability-2](#framework-vulnerability-2)
 - [Framework-vulnerability-3](#framework-vulnerability-3)
@@ -30,6 +30,15 @@ If needed
 
 ### Subcategory
 If needed 
+
+# Framework vulnerability 1
+Define the attack sink, surface, and way to identify the issue through the source code
+
+# Framework vulnerability 2
+Define the attack sink, surface, and way to identify the issue through the source code
+
+# Framework vulnerability 3
+Define the attack sink, surface, and way to identify the issue through the source code
 
 
 
