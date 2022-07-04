@@ -1,4 +1,4 @@
-**Disclaimer: <If it is not ready>: It is still under research, this guide can be extended.**
+**Disclaimer: It is still under research, this guide can be extended.**
 
 # Security Review for <Framework> applications
 - [Security Checklist](#security-checklist)
@@ -19,7 +19,7 @@
 - [ ]  A list of checklist a source code reviewer do at the review
 - [ ]  `some rules are not defined ...` 
 - [ ]  `xss has no sanitization while using this function ...`
-- [ ]  `the app do not use those functions within code base ...`
+- [ ]  `the app does not use those functions within code base ...`
 
 
 # Review Methodology
