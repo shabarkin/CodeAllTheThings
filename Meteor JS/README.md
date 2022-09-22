@@ -1,3 +1,5 @@
+Authors: [Pavel Shabarkin](https://www.linkedin.com/in/pavelshabarkin/)
+
 **Disclaimer: It is still under research, this guide can be extended.**
 
 # Security Review for Meteor JS applications
