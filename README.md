@@ -21,3 +21,5 @@ At the moment the Octal Security team is taking care of most of the project deve
 If you see that we missed some information in the published methodologies or just want to add a new methodology document, feel free to make a pull request, we will review your work and, if it meets our needs, we will add it to the repository project. If you have contributed to the project, we will be happy to post a message on our social networks to inform that you are part of this project and what you have contributed. 
 
 There is an example template of what the methodology page should look like and what we are trying to communicate to the reader. If you are ready to contribute, check out the template page below to understand our needs:
+
+[_template](https://github.com/Octal-Security/CodeAllTheThings/blob/main/_template.md)
