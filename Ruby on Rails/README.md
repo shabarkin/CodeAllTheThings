@@ -1,6 +1,6 @@
 # Ruby on Rails
 
-Authors: Viktoriia Taran, Rostyslav Grynov
+Authors: [Viktoriia Taran](https://www.linkedin.com/in/viktoriia-taran/), [Rostyslav Grynov](https://www.linkedin.com/in/rostyslav-grynov/)
 
 <aside>
 🤓 This guide will be constantly updated with new vulnerabilities and their patterns. Feel free to add something new.
