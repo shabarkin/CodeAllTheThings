@@ -1,7 +1,6 @@
 # Ruby on Rails
 
 Authors: Viktoriia Taran, Rostyslav Grynov
-Stages: Octal-feedback
 
 <aside>
 🤓 This guide will be constantly updated with new vulnerabilities and their patterns. Feel free to add something new.
