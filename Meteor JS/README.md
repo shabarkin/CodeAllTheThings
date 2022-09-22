@@ -1,4 +1,4 @@
-Authors: [Pavel Shabarkin](https://www.linkedin.com/in/pavelshabarkin/)
+**Authors: [Pavel Shabarkin](https://www.linkedin.com/in/pavelshabarkin/)**
 
 **Disclaimer: It is still under research, this guide can be extended.**
 
