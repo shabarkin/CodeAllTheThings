@@ -271,8 +271,6 @@ IO.write("| os command here", "foo")
 syscall
 %x() %x %x{} %x-os-
 popen<n>
-File.read
-File.write
 exec
 Open3.popen3()
 fork()
