@@ -1,65 +1,51 @@
+**Authors: linkedin, twitter, whatever links**
+
 **Disclaimer: It is still under research, this guide can be extended.**
 
-# Security Review for <Framework> applications
-- [Security Checklist](#security-checklist)
-- [Review Methodology](#review-methodology)
-	- [Getting Started](#getting-started)
-		- [Setup](#setup)
-        - [Subcategory](#subcategory)
-- [Framework-vulnerability-1](#framework-vulnerability-1)
-- [Framework-vulnerability-2](#framework-vulnerability-2)
-- [Framework-vulnerability-3](#framework-vulnerability-3)
-    - [subcategory-1-vulnerability-3](#subcategory-1-vulnerability-3)
-    - [subcategory-2-vulnerability-3](#subcategory-2-vulnerability-3)
-- [Links and References](#links-and-references)
-
+> Introduction to framework or technology the paper is dedicated to, or the TL;DR
+> 
 
 # Security Checklist
 
 - [ ]  Create a check list based on the `review methodology` section
-- [ ]  `some rules are not defined ...` 
+- [ ]  `some rules are not defined ...`
 - [ ]  `app has no internal sanitization while using this function check smth ...`
 - [ ]  `review this function for rce ...`
-
+- [ ]  `…`
 
 # Review Methodology
-## Getting started
 
-### Setup
-If needed 
+Intro to the review, provide a short bio of the framework / technology / language
 
-### Subcategory
-If needed 
+## Setup
 
-# Framework vulnerability 1
-Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
+If the setup is needed, what to do, add code snippets, commands, methods to get started.
 
-# Framework vulnerability 2
-Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
+## Architecture review
 
-# Framework vulnerability 3
-Define the attack sink, surface, why it is a problem and way to identify the issue through the source code, include examples 
+If the framework has a complex architecture, it makes sense to tell abstract what it is, where to look at, make brief summary how it is located in the code etc …
 
-## subcategory 1 vulnerability 3
+# Vulnerability #N
 
-if there is different attack types put them into sub headlines
+The main reason we are doing this project it is not just to include the sinks, we need to give our complex review of the problem. 
 
-## subcategory 2 vulnerability 3
+1. Show the sink
+2. Define the attack surface
+3. Tell where and why in those places the vulns can appear, how function here works, add charts, add visual support (images, videos, charts) for better understanding
+4. Include examples with vulnerable source code
+5. Is there any detailed case study? Provide the link
+6. Way to identify the issue through the source code
 
-if there is different attack types put them into sub headlines
+## subcategory #k vulnerability #N
 
-## subcategory 3 vulnerability 3
+If vulnerability has subcategories we can split them into parts, to make it easier for the reader to consume the information, it is for better structuring
 
-if there is different attack types put them into sub headlines
+## subcategory #k+1 vulnerability #N
 
+# Vulnerability #N+1
 
+# Links & References
 
-# Links and References
-<details><summary>Links and References</summary><blockquote>
-
-1. [Link 1](https://shabarkin.notion.site/)
-2. [Link 2](https://shabarkin.notion.site/)
-3. [Link 3](https://shabarkin.notion.site/)
-4. [Link 4](https://shabarkin.notion.site/)
-
-</blockquote></details>
+1. link
+2. link
+3. link
